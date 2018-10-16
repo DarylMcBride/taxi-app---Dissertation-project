@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MapDemo</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="send_to_database">send to database</string>
+    <string name="send">Send</string>
+    <string name="find">find</string>
+    <string name="where_do_you_want_to_go">Where To?</string>
+    <string name="where_do_you_want_to_get_picked_up">Where from? </string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+
+
+    <string name="login">Login</string>
+    <string name="where_are_you_getting_picked_up">Where From?</string>
+    <string name="Lift_History">Lift History</string>
+    <string name="Your_Account">Your Account</string>
+    <string name="Saved_Locations">Saved Locations</string>
+    <string name="title_activity_driver">Taxi App</string>
+    <string name="user_registration">Taxi App</string>
+    <string name="title_login_activity">Taxi App</string>
+    <string name="search">Search</string>
+    <string name="logout">logout</string>
+    <string name="goOnline">Go Online</string>
+    <string name="booking">booking</string>
+    <string name="title_activity_nav">nav</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    />
+    />
+
+
+</resources>

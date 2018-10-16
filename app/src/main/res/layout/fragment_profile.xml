@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+
+    <RelativeLayout
+        android:id="@+id/blackProfileLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="149dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#000000">
+
+        <TextView
+            android:id="@+id/joined"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/numberOfTrips"
+            android:layout_marginEnd="40dp"
+            android:text="joined"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/numberOfTrips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="Trips"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/numberOfTrips"
+            android:layout_marginStart="40dp"
+            android:text="Rating"
+            android:textColor="#fff" />
+
+
+        <TextView
+            android:id="@+id/userAccountRatingTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rating"
+            android:paddingLeft="40dp"
+            android:text="N/A"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/userAccountNumOfTripsTV"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_above="@+id/numberOfTrips"
+            android:layout_centerHorizontal="true"
+            android:text="hello"
+            android:textColor="#fff" />
+
+
+        <TextView
+            android:id="@+id/userAccountJoinedTV"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_above="@+id/joined"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="-20dp"
+            android:text="13th june"
+            android:textColor="#fff" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="566dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/userProfileFNameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/userProfileNameTV"
+            android:layout_toEndOf="@+id/editProfileButton"
+            android:gravity="center_horizontal"
+            android:text="Name Here"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/userProfileNameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/editProfileButton"
+            android:layout_marginTop="87dp"
+            android:gravity="center_horizontal"
+            android:text="Name :"
+            android:textColor="#000" />
+
+        <ImageButton
+            android:id="@+id/backToMapImgButton"
+            android:layout_width="38dp"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="29dp"
+            android:layout_marginEnd="26dp"
+            android:background="#000"
+            android:src="@drawable/ic_arrow_back"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/editProfileButton"
+            android:layout_width="128dp"
+            android:layout_height="36dp"
+            android:layout_alignBottom="@+id/backToMapImgButton"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="24dp"
+            android:background="#000"
+            android:text="Edit Profile"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/userAccountPhoneTV"
+            android:layout_width="175dp"
+            android:layout_height="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="134dp"
+            android:layout_toEndOf="@+id/editProfileButton"
+            android:text="TextView"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/mobileTextViewProfile"
+            android:layout_width="99dp"
+            android:layout_height="29dp"
+            android:layout_alignStart="@+id/editProfileButton"
+            android:layout_alignTop="@+id/userAccountPhoneTV"
+            android:text="Mobile :"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/langTextView"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/editProfileButton"
+            android:layout_marginTop="194dp"
+            android:text="Language : "
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/langHereTextView"
+            android:layout_width="168dp"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/langTextView"
+            android:layout_toEndOf="@+id/editProfileButton"
+            android:text="English"
+            android:textColor="#000" />
+    </RelativeLayout>
+
+</RelativeLayout>

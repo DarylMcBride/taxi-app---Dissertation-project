@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/fromBookingInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/staticPriceTV"
+        android:layout_alignTop="@+id/From"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/selectdriverTV"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="You Have  A New Booking." />
+
+    <Button
+        android:id="@+id/confirmYourBooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="140dp"
+        android:background="#000"
+        android:text="Ok"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/toBookingInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/fromBookingInfo"
+        android:layout_alignTop="@+id/textView6"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/distanceTVBookingInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/selectdriverTV"
+        android:layout_marginBottom="268dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/priceTVBookingInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/distanceTVBookingInfo"
+        android:layout_marginEnd="93dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/StaticDistanceTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/distanceTVBookingInfo"
+        android:layout_alignStart="@+id/selectdriverTV"
+        android:text="Distance" />
+
+    <TextView
+        android:id="@+id/staticPriceTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/distanceTVBookingInfo"
+        android:layout_alignStart="@+id/priceTVBookingInfo"
+        android:text="Estimated Price" />
+
+    <TextView
+        android:id="@+id/From"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="199dp"
+        android:text="Pick Up:" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="128dp"
+        android:text="Destination:" />
+
+</RelativeLayout>
